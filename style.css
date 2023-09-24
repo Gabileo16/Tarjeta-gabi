@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  color: #852a28;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #852a28;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#container {
+  width: 455px;
+  height: 365px;
+  display: flex;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px 5px #aaa;
+}
+#container .info {
+  width: 70%;
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem 0 0 1rem;
+}
+#container .info .profile {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#container .info .profile img {
+  width: 50%;
+  border-radius: 50%;
+  margin-bottom: 0.8rem;
+}
+#container .info .profile .name {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+#container .info .profile .name p:nth-child(1) {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+#container .info .profile .name p:nth-child(2) {
+  font-size: 0.9rem;
+  text-align: center;
+}
+#container .info .profile span {
+  width: 150px;
+  display: block;
+  border: 1px solid #852a2a;
+  border-radius: 2rem;
+  text-align: center;
+  padding: 0.5rem;
+  margin: 0.3rem;
+  cursor: pointer;
+}
+#container .stadistic {
+  width: 30%;
+  height: 100%;
+  background-color: rgb(218, 176, 113);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: stretch;
+  text-align: center;
+  border-radius: 0 1rem 1rem 0;
+}
+#container .stadistic .posts,
+#container .stadistic .likes,
+#container .stadistic .followers {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#container .stadistic .posts p,
+#container .stadistic .likes p,
+#container .stadistic .followers p {
+  font-size: 0.8rem;
+  margin-right: 0.5rem;
+}
+#container .stadistic .posts span,
+#container .stadistic .likes span,
+#container .stadistic .followers span {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+#container .stadistic .likes {
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+}
+
+/*# sourceMappingURL=style.css.map */
